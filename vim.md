@@ -1,6 +1,10 @@
 # Cheat Sheet Vim
 
 ## Interact with Unix commands
+### run Unix command and display the result
+```
+:!date
+```
 ### read the stdout of Unix command and put it after the current line
 ```
 :r !date
