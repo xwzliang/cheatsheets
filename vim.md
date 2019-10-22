@@ -21,3 +21,33 @@
 ```
 4!!sort
 ```
+
+## @-Functions
+To define an @-function:
+1. Enter the command(s) you want to execute onto one or more lines of the file you're editing.
+2. Yank or delete the line(s) into a named buffer with a command like "ay$ or "bD.
+3. To use the function, type a command like @a or @b. You can repeat the function by typing @@ or a dot (.). Use u or U to undo the effects of the @-function.
+
+
+## Regex
+### Get the matched contents stored in hold buffer
+Use &, the following command capitalizes every word on a line (\< matches the left word boundary)
+```
+:s/\<./\u&/g
+```
+### Compound Searches
+Find the first occurence of pattern2 just after pattern1
+```
+/pattern1/;/pattern2/
+```
+
+
+## Recover backup file
+### Recover a file
+```
+vim -r file
+```
+### Get a list of files that have backups
+```
+vim -r
+```
