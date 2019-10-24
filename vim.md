@@ -17,6 +17,10 @@
 ```
 !!bash
 ```
+### run current four lines as stdin of another Unix command and only display result
+```
+.,+3w !sort
+```
 ### run current four lines as stdin of another Unix command and replace them with result
 ```
 4!!sort
