@@ -1,5 +1,11 @@
 # Cheat Sheet Vim
 
+## Run commands
+### run normal mode commands: forward two word, delete next two word for a range of lines
+```
+:1,10normal 2wd2w
+```
+
 ## Interact with Unix commands
 ### run Unix command and display the result
 ```
