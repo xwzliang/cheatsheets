@@ -9,3 +9,9 @@ C-c C-c
 M-p (M-n)
 ### Move to previous (next) command's output
 C-c C-p (C-n)
+
+## Emacs as an IDE
+### View next error message and go to the code position
+C-x ` (next-error)
+### Start with the first error again
+C-u C-x `
