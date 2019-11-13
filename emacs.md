@@ -2,6 +2,10 @@
 
 ## Open menu bar
 M-`
+
+## Check the underlying command bound to keys
+C-h k (keys)
+
 ## Using shell mode
 ### terminate commands
 C-c C-c
