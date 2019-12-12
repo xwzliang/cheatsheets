@@ -13,6 +13,8 @@ C-c C-c
 M-p (M-n)
 ### Move to previous (next) command's output
 C-c C-p (C-n)
+### Open multiple shells
+C-u M-x shell
 
 ## Emacs as an IDE
 ### View next error message and go to the code position
