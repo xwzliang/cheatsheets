@@ -38,4 +38,14 @@ $ ls -d !(*.[ch])
 
 
 ## Test Regular Expression
+### without space in pattern
+```
 [[ "$INT" =~ ^-?[0-9]+$ ]]
+```
+### with space in pattern
+```
+pat="[0-9a-zA-Z ]"
+[[ $x =~ $pat ]]	# Put pattern to a variable
+
+[[ $x =~ [0-9a-zA-Z\ ] ]]	# backslash space also works
+```
