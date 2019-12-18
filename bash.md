@@ -36,3 +36,6 @@ could also be written as:
 
 $ ls -d !(*.[ch])
 
+
+## Test Regular Expression
+[[ "$INT" =~ ^-?[0-9]+$ ]]
