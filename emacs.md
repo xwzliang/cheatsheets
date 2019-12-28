@@ -6,6 +6,9 @@ M-`
 ## Check the underlying command bound to keys
 C-h k (keys)
 
+## Insert literal characters like tab or new line
+C-q (key)
+
 ## Using shell mode
 ### terminate commands
 C-c C-c
