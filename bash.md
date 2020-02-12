@@ -49,3 +49,6 @@ pat="[0-9a-zA-Z ]"
 
 [[ $x =~ [0-9a-zA-Z\ ] ]]	# backslash space also works
 ```
+
+## Variable with default value if not specified.
+var="${VAR1:=var_default}"
