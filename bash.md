@@ -51,4 +51,4 @@ pat="[0-9a-zA-Z ]"
 ```
 
 ## Variable with default value if not specified.
-var="${VAR1:=var_default}"
+var="${VAR1:-var_default}"
