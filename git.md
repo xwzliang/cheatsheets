@@ -11,3 +11,7 @@ git remote set-url origin git@gitserver.com:user/repo_name.git
 git log -L 155,155:file.sh
 
 This means "trace the evolution of lines 155 to 155 in the file named file.sh".
+
+## Ignore
+### stop tracking and ignore changes to a file or directory
+git update-index --assume-unchanged [path]
